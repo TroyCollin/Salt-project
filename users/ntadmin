@@ -1,0 +1,8 @@
+ntadmin:
+  user.present:
+    - fullname: System Account
+    - shell: /bin/bash
+    - home: /home/ntadmin
+    - groups:
+      - ssh-access
+      - sudo 
