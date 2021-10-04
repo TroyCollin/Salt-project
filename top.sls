@@ -1,4 +1,9 @@
 base:
   '*':
     - zabbix
-    - user
+  'NatsaltMinion':
+    - postgresql
+    - apache
+    - bashrc
+  'NatDBNode*':
+    - mariadb
